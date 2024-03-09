@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.price {
+  display: flex;
+  padding: 2.5px;
+}
+.price__block {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+}
+.price__block__content {
+  display: flex;
+  flex-basis: 49%;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.price__block__content div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content__img {
+  flex-basis: 25%;
+}
+.content__img img {
+  max-width: 80px;
+}
+.content__title {
+  flex-basis: 50%;
+}
+.content__button {
+  flex-basis: 25%;
+}
